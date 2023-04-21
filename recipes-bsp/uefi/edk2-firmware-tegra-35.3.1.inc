@@ -9,15 +9,15 @@ LIC_FILES_CHKSUM += "file://../edk2-nvidia-non-osi/Silicon/NVIDIA/Drivers/NvGopD
 
 DEPENDS += "dtc-native"
 
-EDK2_SRC_URI = "gitsm://github.com/NVIDIA/edk2.git;protocol=https;branch=main-edk2-stable202208-updates"
+EDK2_SRC_URI = "https://github.com/qiaoyongfeng/edk2.git;protocol=https;branch=r35.2.1-edk2-stable202208-updates"
 EDK2_PLATFORMS_SRC_URI = "git://github.com/NVIDIA/edk2-platforms.git;protocol=https;branch=r35.3.1-upstream-20220830-updates"
-EDK2_NVIDIA_SRC_URI = "git://github.com/NVIDIA/edk2-nvidia.git;protocol=https;branch=r35.3.1-updates"
+EDK2_NVIDIA_SRC_URI = "https://github.com/qiaoyongfeng/edk2-nvidia.git;protocol=https;branch=main"
 EDK2_NONOSI_SRC_URI = "git://github.com/NVIDIA/edk2-non-osi.git;protocol=https;branch=main-upstream-20220830"
 EDK2_NVIDIA_NONOSI_SRC_URI = "git://github.com/NVIDIA/edk2-nvidia-non-osi.git;protocol=https;branch=r35.3.1-updates"
 
-SRCREV_edk2 = "7ba0a31b503cd0bf82a97e90f460ad7586ba80c4"
+SRCREV_edk2 = "5cf01e130e6644aad34c153c7017689ed8c0ed9b"
 SRCREV_edk2-non-osi = "61662e8596dd9a64e3372f9a3ba6622d2628607c"
-SRCREV_edk2-nvidia = "63e71c987193cc57333994ca5b82a62c40fed5da"
+SRCREV_edk2-nvidia = "abee7a1ceb411fbe9ed99e03f2c66fa584efe2f9"
 SRCREV_edk2-nvidia-non-osi = "952a02747566005181ec3248d7a9a5a24533e9dd"
 SRCREV_edk2-platforms = "3c3b1168017073c2bb2d97336c5929ebae805be1"
 
